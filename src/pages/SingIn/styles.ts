@@ -15,6 +15,8 @@ export const SignInContainer = styled.main`
 `;
 
 export const FormContainer = styled.form`
+  width: 30rem;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,7 +25,6 @@ export const FormContainer = styled.form`
 
   flex: 1;
 
-  width: 30rem;
   padding: 0 2rem;
 
   background: ${(props) => props.theme.GRAY_600};
